@@ -1,0 +1,53 @@
+================================================================================
+  ICON FÜR MRA4 DASHBOARD
+================================================================================
+
+WICHTIG:
+--------
+Das Icon "icon.ico" muss sich im assets-Ordner befinden:
+  → ..\assets\icon.ico
+
+Aktueller Pfad (relativ zum installer_build Ordner):
+  c:\Users\kklaus\mra4_dashboard\assets\icon.ico
+
+
+WIRD AUTOMATISCH VERWENDET FÜR:
+-------------------------------
+✓ MRA4_Dashboard.exe (Programm-Icon)
+✓ Installer-Setup.exe (Setup-Icon)
+✓ Desktop-Verknüpfung
+✓ Start-Menü-Einträge
+
+
+ICON ERSTELLEN:
+--------------
+Falls Sie noch kein Icon haben:
+
+1. Online Icon-Converter nutzen:
+   → https://convertio.co/de/png-ico/
+   → https://www.icoconverter.com/
+
+2. Anforderungen:
+   → Format: .ico
+   → Größen: 16x16, 32x32, 48x48, 256x256 Pixel
+   → Dateiname: icon.ico
+
+3. Speichern unter:
+   → c:\Users\kklaus\mra4_dashboard\assets\icon.ico
+
+
+WENN KEIN ICON VORHANDEN:
+-------------------------
+Der Build funktioniert auch ohne Icon!
+Es wird dann das Standard-Windows-Icon verwendet.
+
+
+PRÜFEN OB ICON VORHANDEN:
+-------------------------
+Führen Sie aus: dir ..\assets\icon.ico
+
+Sollte anzeigen:
+  icon.ico
+
+
+================================================================================

@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+venv_old*/
+ENV/
+env/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer Build Artifacts
+installer_build/build/
+installer_build/dist/
+installer_build/venv/
+installer_build/venv_old*/
+installer_build/Output/
+installer_build/*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Config (mit sensiblen Daten)
+config.json
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+tmpclaude-*
+
+# Claude Code Settings
+.claude/

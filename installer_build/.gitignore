@@ -1,0 +1,30 @@
+# Build-Artefakte
+build/
+dist/
+Output/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# PyInstaller
+*.spec
+*.manifest
+
+# Logs
+*.log
+
+# Temporäre Dateien
+*.tmp
+*.bak
+~*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

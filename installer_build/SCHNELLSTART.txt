@@ -1,0 +1,132 @@
+================================================================================
+  MRA4 DASHBOARD - INSTALLER ERSTELLEN
+================================================================================
+
+SUPER EINFACH - NUR 2 SCHRITTE!
+
+[1] PYTHON INSTALLIEREN (einmalig)
+    ================================
+
+    Python 3.8+ herunterladen:
+    → https://www.python.org/downloads/
+
+    WICHTIG bei Installation:
+    → Häkchen setzen bei: "Add Python to PATH"
+    → Installation durchführen
+    → PC neu starten
+
+
+[2] BUILD STARTEN
+    =============
+
+    Einfach Doppelklick auf:
+    → build_installer.bat
+
+    FERTIG! Alles wird automatisch installiert:
+    ✓ Alle Python-Pakete (Dash, Modbus, Plotly...)
+    ✓ PyInstaller
+    ✓ Build-Prozess
+    ✓ Installer-Erstellung
+
+    Dauer: 5-10 Minuten
+
+    KEIN INTERNET ERFORDERLICH nach dem ersten Build!
+
+
+[3] ERGEBNIS
+    ========
+
+    Nach erfolgreichem Build erscheint ASCII-Art und:
+
+    → Output\MRA4_Dashboard_Setup.exe (Installer)
+    → dist\MRA4_Dashboard\MRA4_Dashboard.exe (Portable)
+
+    Beide Versionen funktionieren auf JEDEM Windows-PC!
+
+
+================================================================================
+  WAS MACHT DER BUILD?
+================================================================================
+
+AUTOMATISCH:
+  [1/6] Prüft Python
+  [2/6] Erstellt virtuelle Umgebung
+  [3/6] Aktualisiert pip
+  [4/6] Installiert ALLE Dependencies (Dash, Modbus, Plotly, pandas...)
+  [5/6] Erstellt .exe mit PyInstaller
+  [6/6] Erstellt Windows-Installer
+
+  Dann zeigt es die ASCII-Art an!
+
+
+================================================================================
+  ICON WIRD AUTOMATISCH HINZUGEFÜGT
+================================================================================
+
+Das Icon "icon.ico" aus dem assets-Ordner wird automatisch verwendet für:
+  ✓ Die .exe-Datei
+  ✓ Den Installer
+  ✓ Desktop-Verknüpfung
+  ✓ Start-Menü
+
+
+================================================================================
+  NUR PORTABLE VERSION? (Ohne Installer)
+================================================================================
+
+Wenn Sie nur die .exe ohne Installer wollen:
+  → build_portable.bat (Doppelklick)
+
+  Ergebnis: dist\MRA4_Dashboard\MRA4_Dashboard.exe
+  (Ganzen Ordner auf USB kopieren - läuft überall!)
+
+
+================================================================================
+  VERTEILUNG
+================================================================================
+
+INSTALLER-METHODE (empfohlen):
+  1. Output\MRA4_Dashboard_Setup.exe auf USB-Stick
+  2. Auf Ziel-PC: Setup.exe ausführen
+  3. Fertig - MRA4 Dashboard startet!
+
+PORTABLE METHODE:
+  1. dist\MRA4_Dashboard\ komplett auf USB-Stick
+  2. Auf Ziel-PC: Ordner kopieren
+  3. MRA4_Dashboard.exe starten
+  4. Keine Installation nötig!
+
+
+================================================================================
+  FEHLERBEHEBUNG
+================================================================================
+
+"Python nicht gefunden"
+  → Python installieren: https://www.python.org/downloads/
+  → "Add Python to PATH" aktivieren!
+  → PC neu starten
+
+"Build dauert ewig"
+  → Normal! Erster Build: 5-10 Minuten
+  → PyInstaller verpackt alle Dependencies
+
+"Inno Setup nicht gefunden"
+  → Kein Problem! Portable .exe wurde trotzdem erstellt
+  → Für Installer: https://jrsoftware.org/isdl.php installieren
+
+
+================================================================================
+  WICHTIG ZU WISSEN
+================================================================================
+
+✓ ALLE Dependencies werden AUTOMATISCH installiert
+✓ KEIN manuelles pip install nötig
+✓ Funktioniert auf JEDEM Windows-PC (keine Python-Installation erforderlich)
+✓ Größe: ~150-200 MB (enthält ALLES: Dash, Flask, Plotly, Modbus...)
+✓ Icon wird automatisch hinzugefügt
+✓ ASCII-Art erscheint bei erfolgreichem Build
+
+
+================================================================================
+Weitere Informationen: Siehe README.md
+================================================================================

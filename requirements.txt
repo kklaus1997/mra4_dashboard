@@ -1,0 +1,6 @@
+dash
+dash-bootstrap-components
+dash-daq
+plotly
+pymodbus
+pandas
